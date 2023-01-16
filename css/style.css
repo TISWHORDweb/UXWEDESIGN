@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .link a {
+  margin: 0px 100px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.yellow_button {
+  background: #FFF933;
+  font-weight: 600;
+  color: #000;
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.banner .transform {
+  margin-top: 50px;
+}
+
+.banner .transform h3 {
+  font-weight: 600;
+}
+
+.banner .transform p {
+  font-size: 14px;
+}
+
+.banner .transform .over1 {
+  position: relative;
+}
+
+.banner .transform .over1 .call {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: -10px;
+}
+
+.banner .transform .over1 .call p {
+  font-weight: 600;
+  margin: 0;
+  margin-left: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner .set1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner .set1 .over2 {
+  position: absolute;
+  top: 0;
+}
+
+.banner .set1 .over3 {
+  padding-top: 350px;
+  padding-right: 100px;
+}
+
+.banner2 .shutter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.banner2 .shutter div {
+  margin: 10px;
+}
+
+.fixed-top {
+  top: -40px;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.banner3 .can {
+  position: relative;
+}
+
+.banner3 .can h2 {
+  position: absolute;
+  font-weight: 600;
+  left: 20px;
+  top: 30px;
+}
+
+.banner3 .marg {
+  margin-top: 200px;
+}
+
+.banner3 .over1 {
+  position: relative;
+}
+
+.banner3 .over1 .call {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+.banner3 .over1 .call p {
+  font-weight: 600;
+  margin: 0;
+  margin-left: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner3 .rec {
+  position: relative;
+}
+
+.banner3 .rec .marg1 {
+  margin-top: 100px;
+}
+
+.banner3 .rec .full {
+  position: absolute;
+  padding-left: 100px;
+}
+
+.banner3 .rec .full .stack {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+}
+
+.banner3 .rec .full .stack div {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner3 .rec .full .stack div img {
+  width: 70%;
+}
+
+.banner3 .rec .full .stack h4 {
+  font-weight: 600;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.banner3 .rec .full .stack P {
+  font-size: 14PX;
+}
+
+.banner3 .rec .full .stack .blue {
+  background: #F1F7FF;
+}
+
+.banner3 .rec .full .stack .pink {
+  background: #FFF2F8;
+}
+
+.banner3 .rec .full .stack .orange {
+  background: #FFF7E3;
+}
+
+.banner3 .rec .full .stack .green {
+  background: #DEFFEE;
+}
+
+.banner4 {
+  padding-top: 200px;
+}
+
+.banner4 .audit {
+  position: relative;
+}
+
+.banner4 .audit .big {
+  position: absolute;
+}
+
+.banner4 .audit .round {
+  margin-top: 300px;
+  margin-left: 500px;
+}
+
+.banner4 .can {
+  position: relative;
+}
+
+.banner4 .can h1 {
+  position: absolute;
+  font-weight: 600;
+  left: 20px;
+  top: 30px;
+}
+
+.banner5 .mari {
+  position: relative;
+}
+
+.banner5 .mari .imm {
+  position: absolute;
+}
+
+.banner5 .mari .mm1 {
+  margin-left: 200px;
+}
+
+.banner5 .mari .mm2 {
+  margin-top: 30px;
+}
+
+.banner5 h1,
+.banner5 h2 {
+  font-weight: 600;
+}
+
+.banner5 .eclisp img {
+  margin: 0 10px;
+}
+
+.banner6 .book {
+  background: #FFFEE3;
+  border-radius: 55px;
+}
+
+.banner6 .book h2 {
+  font-weight: 600;
+}
+
+.banner6 .space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.banner6 .space .tan1 {
+  margin-top: -250px;
+}
+
+.banner6 .ook {
+  background-color: #FFF933;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 90px;
+  height: 100%;
+}
+
+.banner6 .ook button {
+  background: #FFF933;
+  border: 5px solid white;
+  padding: 15px;
+  font-weight: 600;
+  width: 70%;
+  -webkit-box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+          box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+  top: 100px;
+  border-radius: 60px;
+}
+
+.footer .we {
+  font-size: 13px;
+}
+
+.footer p {
+  color: gray;
+  font-size: 12px;
+}
+
+.footer .social img {
+  margin: 0 10px;
+}
+
+/* For Desktop View */
+/* For Tablet View */
+@media screen and (max-device-width: 1024px) {
+  .navbar .link a {
+    margin: 0px 50px;
+  }
+  .set1 .over3 {
+    padding-top: 220px !important;
+  }
+  .marg {
+    margin-top: 100px !important;
+  }
+  .full {
+    padding-left: 50px !important;
+  }
+  .banner4 {
+    padding-top: 300px !important;
+  }
+  .banner4 .round {
+    margin-top: 180px !important;
+    margin-left: 320px !important;
+    width: 30% !important;
+  }
+  .banner5 .mari {
+    position: relative;
+  }
+  .banner5 .mari .imm {
+    position: absolute;
+  }
+  .banner5 .mari .mm1 {
+    margin-left: 130px !important;
+  }
+  .banner5 .mari .mm2 {
+    margin-top: 30px;
+  }
+  .banner5 .eclisp img {
+    margin: 0 10px;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 770px) {
+  .set1 .over3 {
+    padding-top: 180px !important;
+  }
+  .marg {
+    margin-top: 50px !important;
+  }
+  .full {
+    padding-left: 30px !important;
+  }
+  .full {
+    position: relative !important;
+  }
+  .marg1 {
+    display: none !important;
+  }
+  .banner4 {
+    padding-top: 50px !important;
+  }
+  .banner4 .round {
+    margin-top: 200px !important;
+    margin-left: 350px !important;
+    width: 30% !important;
+  }
+  .banner5 .up {
+    margin-top: 20px;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) {
+  .set1 .over3 {
+    padding-top: 180px !important;
+  }
+  .marg {
+    margin-top: 20px !important;
+  }
+  .full {
+    padding-left: 10px !important;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (max-device-width: 320px) {
+  .set1 .over3 {
+    padding-top: 120px !important;
+    padding-right: 50px !important;
+  }
+  .set1 img {
+    width: 40%;
+  }
+  .set1 .over2 {
+    width: 100%;
+  }
+  .navbar .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar .link a {
+    margin: 10px;
+  }
+  .logo {
+    width: 140px;
+  }
+  .full {
+    position: relative !important;
+  }
+  .marg1 {
+    display: none !important;
+  }
+  .banner4 {
+    padding-top: 50px;
+  }
+  .banner4 .round {
+    margin-top: 130px !important;
+    margin-left: 200px !important;
+    width: 30% !important;
+  }
+  .banner5 .mari {
+    position: relative;
+  }
+  .banner5 .mari .imm {
+    position: absolute;
+  }
+  .banner5 .mari .mm1 {
+    margin-left: 90px !important;
+  }
+  .banner5 .mari .mm2 {
+    margin-top: 10px;
+  }
+  .banner5 .up {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
