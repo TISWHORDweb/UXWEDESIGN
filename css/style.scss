@@ -11,7 +11,7 @@
 
     .link {
         a {
-            margin: 0px 100px;
+            margin: 0px 60px;
             color: #000;
             text-decoration: none;
             font-weight: 600;
@@ -33,6 +33,10 @@
         background-color: #efe81c;
         color: #000 !important;
     }
+    a{
+        color: #000;
+        text-decoration: none;
+    }
 }
 .yellow_buttons {
     background: #FFF933;
@@ -47,6 +51,10 @@
     &:hover{
         background-color: #efe81c;
         color: #000 !important;
+    }
+    a{
+        color: #000;
+        text-decoration: none;
     }
 }
 
@@ -108,6 +116,9 @@
 
         div {
             margin: 10px;
+            img{
+                width: 130px !important;
+            }
         }
     }
 }
@@ -311,6 +322,10 @@
             box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
             top: 100px;
             border-radius: 60px;
+            a{
+                color: #000;
+                text-decoration: none;
+            }
         }
     }
 }
@@ -324,7 +339,7 @@
     }
    .social{
     img{
-        // width: 4%;
+        width: 4%;
         margin: 0 10px;
     }
    }
@@ -557,9 +572,9 @@
         }
     }
 
-    .logo {
-        width: 140px;
-    }
+    // .logo {
+    //     width: 140px;
+    // }
 
     .full {
         position: relative !important;
@@ -598,6 +613,7 @@
 
         .up {
             margin-top: 20px;
+            display: none !important;
         }
     }
     .bus{

@@ -10,7 +10,7 @@
 }
 
 .navbar .link a {
-  margin: 0px 100px;
+  margin: 0px 60px;
   color: #000;
   text-decoration: none;
   font-weight: 600;
@@ -32,6 +32,11 @@
   color: #000 !important;
 }
 
+.yellow_button a {
+  color: #000;
+  text-decoration: none;
+}
+
 .yellow_buttons {
   background: #FFF933;
   font-weight: 600;
@@ -47,6 +52,11 @@
 .yellow_buttons:hover {
   background-color: #efe81c;
   color: #000 !important;
+}
+
+.yellow_buttons a {
+  color: #000;
+  text-decoration: none;
 }
 
 .banner .transform {
@@ -124,6 +134,10 @@
 
 .banner2 .shutter div {
   margin: 10px;
+}
+
+.banner2 .shutter div img {
+  width: 130px !important;
 }
 
 .fixed-top {
@@ -342,6 +356,11 @@
   border-radius: 60px;
 }
 
+.banner6 .ook button a {
+  color: #000;
+  text-decoration: none;
+}
+
 .footer .we {
   font-size: 13px;
 }
@@ -352,6 +371,7 @@
 }
 
 .footer .social img {
+  width: 4%;
   margin: 0 10px;
 }
 
@@ -528,9 +548,6 @@
   .navbar .link a {
     margin: 10px;
   }
-  .logo {
-    width: 140px;
-  }
   .full {
     position: relative !important;
   }
@@ -559,6 +576,7 @@
   }
   .banner5 .up {
     margin-top: 20px;
+    display: none !important;
   }
   .bus h1 {
     font-size: 25px;
