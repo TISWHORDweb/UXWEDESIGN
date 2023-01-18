@@ -26,9 +26,28 @@
     color: #000;
     border: none;
     outline: none;
-    padding: 15px 30px;
+    padding: 13px 30px;
     text-decoration: none;
     border-radius: 25px;
+    &:hover{
+        background-color: #efe81c;
+        color: #000 !important;
+    }
+}
+.yellow_buttons {
+    background: #FFF933;
+    font-weight: 600;
+    color: #000;
+    border: none;
+    font-size: 12px;
+    outline: none;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    &:hover{
+        background-color: #efe81c;
+        color: #000 !important;
+    }
 }
 
 .banner {
@@ -100,14 +119,6 @@
 }
 
 .banner3 {
-
-    // background-image: url(/img/Rectangle24.png);
-    // background-position: right;
-    // background-repeat: no-repeat;
-    // position: relative;
-    // .container{
-    //     position: absolute;
-    // }
     .can {
         position: relative;
 
@@ -319,6 +330,53 @@
    }
 }
 
+.weight600{
+    font-weight: 600;
+}
+///PORTFOLIO
+.portfolio{
+    background: #FFFEE3;
+    .from{
+        color: #757575;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        li{
+            list-style: none;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+    }
+    .ttxt{
+        h3{
+            font-weight: 600;
+        }
+        p{
+            color: #757575;
+            font-size: 15px;
+        }
+    }
+    .gift{
+        color: #FF007A;
+        display: flex;
+        align-items: center;
+        img{
+            width: 4%;
+            margin-right: 10px;
+        }
+    }
+}
+
+.heu{
+    p{
+        font-size: 15px;
+    }
+}
+
 // Media Query
 
 
@@ -338,6 +396,11 @@
             a {
                 margin: 0px 50px;
             }
+        }
+    }
+    .bus{
+        h1{
+            font-size: 27px;
         }
     }
 
@@ -431,6 +494,11 @@
     .banner5 {
         .up {
             margin-top: 20px;
+        }
+    }
+    .bus{
+        h1{
+            font-size: 20px;
         }
     }
 }
@@ -530,6 +598,14 @@
 
         .up {
             margin-top: 20px;
+        }
+    }
+    .bus{
+        h1{
+            font-size: 25px;
+        }
+        p{
+            margin-top: 60px !important;
         }
     }
 }
